@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: black;
+    
+}
+.titulo {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.menu {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+nav {
+    width: 99%;
+    top: 68px;
+    background-color: #bbbbbb;
+    margin-left: 10px;
+    margin-right: 88;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 55px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-color:aqua;
+}
+.carousel-control-next-icon {
+    background-color:aqua ;
+}
+.aside {
+    background-color: #bbbbbb;
+    padding: 15px;
+    margin-top: 90px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: rgb(83, 83, 243);
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.mision {
+    font-weight: bold;
+}
+
+strong {
+    font-style: italic;
+}
+.cris {
+   font-size: 10px;
+}
+
+
+
+
+
+
+

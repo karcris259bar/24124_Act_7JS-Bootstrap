@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: black;
+}
+.titulo {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.menu {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+nav {
+    width: 99%;
+    top: 68px;
+    background-color: #bbbbbb;
+    margin-left: 10px;
+    margin-right: 88;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 55px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+.container {
+    margin-top: 10px;
+}    
+
+.principal {
+    padding: 1em 0;
+    width: 95%;
+    margin: 0 auto;
+}   
+
+.principal parrafo {
+   margin: 0 0 1em;
+}
+
+ .parrafo {
+    text-align:justify;
+    padding: 5px;
+    margin-top: 40px;
+ }    
+
+.cocina {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+strong {
+    font-style: italic;
+}
+.banner{
+    height: 20%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+.titulo-principal-sucursal {
+    text-align: center;
+}
+.p-sucursal {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+h5 {
+    margin-left: 200px;
+    margin-top: 40px;
+  
+}
+.dirSanFer {
+    text-decoration: none;
+}
+.direccion {
+    margin-top: 40px;
+    margin-left: 240px;
+}
+.items {
+    line-height: 2;
+    list-style-type: none;
+}
+.items:before {
+    
+    content: "★  ";
+}
+.aSucursal {
+    text-decoration: none;
+}
+
+.mapa-contenido {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+form{
+    margin: 40px 0;
+    margin-left: 60px;
+    margin-right: 40px;
+    background: rgba(180, 225, 227, 0.733);
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    margin-left: 20px;
+}
+.input-agenda {
+    display: block;
+    margin: 0 0 20px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 25px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+.row {
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.col-md-4 {
+    background-color: #fd7e14;
+    color: white;
+   }
+
+.card-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.card-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.card-text-2 {
+    font-size: 18px;
+    margin-left: 18px;
+}
+.text-body-secondary {
+    margin-left: 18px;
+    color: white;
+}
+.container-cliente {
+    background-color: #816bff;
+    color: white;
+    
+}
+.max-768 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+
+}
+.exito {
+    background-color: #95d8f5;
+    width: 30%;
+    margin-left: 55px;
+    margin-top: 30px;
+    font-weight: bold;
+    align-items: center;
+}
+strong {
+        font-style: italic;
+}
+
+.cris {
+    font-size: 10px;
+    
+ }
