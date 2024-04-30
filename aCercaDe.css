@@ -36,7 +36,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    padding: 35px;
+    padding: 30px;
 }
 nav a:hover {
     color: #c78c19;
@@ -76,8 +76,6 @@ strong {
     margin-left: 40px;
     margin-right: 40px;
 }
-
-
 .mapa {
     padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
@@ -92,7 +90,7 @@ strong {
 h5 {
     margin-left: 200px;
     margin-top: 40px;
-  
+ 
 }
 .dirSanFer {
     text-decoration: none;
@@ -112,7 +110,6 @@ h5 {
 .aSucursal {
     text-decoration: none;
 }
-
 .mapa-contenido {
     width: 980px;
     margin: 0 auto;
@@ -143,7 +140,7 @@ form label, form legend {
 }
 
 .enviar{
-    width: 40%;
+    width: 60%;
     padding: 25px 0;
     font-size: 18px;
     font-weight: bold;
@@ -206,12 +203,29 @@ form label, form legend {
     margin-top: 30px;
     font-weight: bold;
     align-items: center;
-}
+}    
+
 strong {
         font-style: italic;
+} 
+.cris{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cris-1 {
+    font-size: 10px;
+    font-weight: bold;
+    
 }
 
-.cris {
-    font-size: 10px;
+@media screen and (max-width: 480px) {
+    h5, .direccion {
+        margin-left: 0;
+    }
+    .input-agenda {
+            width: 250px;
+            margin-left: 0;
+    }
+   
+}
     
- }

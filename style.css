@@ -7,7 +7,6 @@ header {
     width: 100%;
     margin-bottom: 2px;
     background-color: black;
-    
 }
 .titulo {
     color: white;
@@ -43,7 +42,6 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
-
 }
 
 .carousel {
@@ -72,6 +70,23 @@ p {
     font-size: 18px;
     font-weight: bold;
 }
+.focaccia{
+    color: white;
+}
+.calorias {
+    color: rgb(97, 10, 35);
+}
+
+.hamburguesas {
+    color: black;
+}
+
+
+
+.parrafo {
+    color: rgb(70, 13, 215);
+    font-size: 30px;
+}
 .mision {
     font-weight: bold;
 }
@@ -82,6 +97,7 @@ strong {
 .cris {
    font-size: 10px;
 }
+
 
 
 
