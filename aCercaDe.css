@@ -36,7 +36,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    padding: 30px;
+    padding: 5px;
 }
 
 nav a:hover {
@@ -194,6 +194,7 @@ form label, form legend {
     margin-left: 18px;
     color: white;
 }
+/* Clientes */
 .container-cliente {
     background-color: #816bff;
     color: white;
@@ -206,12 +207,17 @@ form label, form legend {
 
 }
 .exito {
-    background-color: #95d8f5;
-    width: 30%;
-    margin-left: 55px;
-    margin-top: 30px;
+    background-color: #a5d6eb;
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 40px;
+    padding-left: 25PX;
     font-weight: bold;
-    align-items: center;
+    box-shadow: 5px 3px 0px hsl(33,42%,40%);
+    
+    
 }    
 
 strong {
@@ -235,6 +241,6 @@ strong {
             width: 250px;
             margin-left: 0;
     }
-   
+    
 }
     
