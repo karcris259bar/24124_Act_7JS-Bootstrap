@@ -237,6 +237,11 @@ strong {
     h5, .direccion {
         margin-left: 0;
     }
+    .cocina {
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+    }
     .input-agenda {
             width: 250px;
             margin-left: 0;
