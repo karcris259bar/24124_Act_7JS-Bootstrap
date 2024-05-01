@@ -38,10 +38,15 @@ nav a {
     text-decoration: none;
     padding: 30px;
 }
+
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+main {
+    height: 100%;
+}    
 .container {
     margin-top: 10px;
 }    
@@ -50,7 +55,7 @@ nav a:hover {
     padding: 1em 0;
     width: 95%;
     margin: 0 auto;
-}   
+}  
 
 .principal parrafo {
    margin: 0 0 1em;
@@ -70,12 +75,15 @@ nav a:hover {
 strong {
     font-style: italic;
 }
+/* Contacto */
 .banner{
     height: 20%;
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
 }
+
+/* Sucursal */
 .mapa {
     padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
